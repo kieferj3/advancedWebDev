@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <!-- gitCheatSheet.html - A cheat sheet for git commands of operation.
+        Written: Jeff Kiefer kieferj3@csp.edu  7/25/17
+        Revised:
+        -->
+        <title>gitCheatSheet</title>
+        <link rel="stylesheet" type="text/css" href="gitCheatSheet.css">
+
+    </head>
+
+    <body>
+        <header>
+        <h1>Git Out Your Cheat Sheet</h1>
+        </header>
+        <br>
+        <br>
+        <h3>Use the following commands in the command line to
+            navigate through files on your local repository. </h3>
+        <div id="Nav">
+        <h2>Navigation</h2>
+        
+        <ul>
+            <li><strong>cd</strong> - Change directories on your hard drive.
+                ex. Possum -> Possum/wordPress
+            </li>
+            <li><strong>cd /</strong> - Moves back to root directory.</li>
+            <li><strong>cd ..</strong> - Moves up one directory.
+                ex. Possum/wordPress -> Possum
+            </li>
+        </ul>
+        </div>
+
+        <div id="Local">
+        <h2>Local Git</h2>
+        <ul>
+            <li><strong>git init</strong> - Create a new repository in a chosen directory.</li>
+            <li><strong>git clone</strong> - (local) File path to repository. ex. git clone/AMPPS/wordPress/test</li>
+            <li><strong>git clone</strong> - (remote) URL to remote repository. ex git clone https://github.com/username/repository.git</li>
+        </ul>
+        </div>
+
+        <div id="Update">
+        <h2>Update That Code</h2>
+        <ul>
+            <li><strong>git remote add origin "server"</strong> - Connect local to remote repository.</li>
+            <li><strong>git pull</strong> - Updates local repository with remote changes.</li>
+        </ul>
+        </div>
+
+        <div id="Committed">
+        <h2>You're Committed</h2>
+        <ul>
+            <li><strong>git add "file"</strong> - Add changes to local files.</li>
+            <li><strong>git add *</strong> - Add all changes to local files.</li>
+            <li><strong>git commit -m "Message"</strong> - Commit changes.</li>
+        </ul>
+        </div>
+
+        <div id="Check">
+        <h2>Check Check 1, 2</h2>
+        <ul>
+            <li><strong>git status</strong> - Check status of current repository.</li>
+        </ul>
+        </div>
+
+        <div id="Changes">
+        <h2>Don't Forget The Changes</h2>
+        <ul>
+            <li><strong>git remote add origin "server"</strong> - Connect local and remote repositories.</li>
+            <li><strong>git push origin master</strong> - Update local changes to remote repository.</li>
+        </ul>
+        </div>
+
+        <div id="Commitments">
+        <h2>The Ten Commitments</h2>
+        <ul>
+            <li><strong>git log</strong> - Display all commits newest to oldest.</li>
+        </ul>
+        </div>
+
+        <div id="Branch">
+        <h2>There's More Than One Path To The Master</h2>
+        <ul>
+            <li><strong>git branch "new-branch"</strong> - Creates new branch seperate of the master.</li>
+        </ul>
+        </div>
+
+        <div id="Merge">
+        <h2>Merge Now</h2>
+        <ul>
+            <li><strong>git merge "branch"</strong> - Merge the branch back into a master branch.</li>
+        </ul> 
+        </div>
+        
+
+    </body>
+</html>
+

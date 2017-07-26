@@ -1,0 +1,74 @@
+/* gitCheatSheet.css - CSS for gitCheatSheet.html.
+Written: Jeff Kiefer kieferj3@csp.edu 7/25/17
+Revised:
+*/
+
+
+Body {
+    background: tan;
+    max-width: 800px;
+}
+
+header {
+    background: lightgoldenrodyellow;
+    height:     100px;
+    }
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    font-family: cursive;
+    font-size: 40pt;
+
+}
+
+h2{
+    font-family: fantasy;
+}
+
+h3{
+    text-decoration: underline;
+    text-align: center;
+    color: saddlebrown;
+}
+
+#Nav {
+    background: #96878b;
+}
+
+#Local {
+    background: #a59c79;
+}
+
+#Update {
+    background: #96878b;
+}
+
+#Committed{
+    background: #a59c79;
+}
+
+#Check {
+    background: #96878b;
+}
+
+#Changes {
+    background: #a59c79;
+}
+
+#Commitments {
+    background: #96878b;
+}
+
+#Branch {
+    background: #a59c79;
+}
+
+#Merge {
+    background: #96878b;
+}
+
+li {
+    list-style-type: square;
+    font-size: 14pt;
+}
